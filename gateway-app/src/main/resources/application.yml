@@ -1,1 +1,7 @@
-zuul.routes.fortune.serviceId: fortune-service
+zuul.routes.catalog-query.url: https://catalog-query-side-scabicide-polygraphist.app.dev.digifabricpcf.com
+zuul.routes.catalog-query.path: /catalogitems
+zuul.routes.user-command.url: https://user-command-side-dodecasyllabic-halfheartedness.app.dev.digifabricpcf.com
+zuul.routes.user-command.path: /users/**
+zuul.routes.user-query.url:  https://user-query-side-renounceable-dispersedelement.app.dev.digifabricpcf.com
+zuul.routes.user-query.path: /users
+
